@@ -6,7 +6,7 @@ This repo contains a basic boilerplate setup of Storybook HTML and some custom t
 ## Setup
 
 * Clone repo
-* cd playground
+* cd storybook-playground
 * npm i
 * Update .env file with your paths
 * npm run storybook
