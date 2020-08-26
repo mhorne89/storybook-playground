@@ -1,0 +1,31 @@
+{
+    "name": "playground",
+    "version": "1.0.0",
+    "description": "A simple Storybook boilerplate for building plain HTML web components.",
+    "scripts": {
+        "storybook": "start-storybook -p 6006 -h playground.amorelie.local",
+        "build-storybook": "build-storybook",
+        "link": "node ./tools/link.js",
+        "create": "node ./tools/create.js"
+    },
+    "author": "Marcus Horne",
+    "license": "MIT",
+    "dependencies": {
+        "css-loader": "^4.2.2",
+        "dotenv": "^8.2.0",
+        "less": "^3.12.2",
+        "less-loader": "^7.0.0",
+        "storybook": "^6.0.17",
+        "style-loader": "^1.2.1",
+        "url-loader": "^4.1.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.4",
+        "@storybook/addon-actions": "^6.0.17",
+        "@storybook/addon-essentials": "^6.0.17",
+        "@storybook/addon-links": "^6.0.17",
+        "@storybook/html": "^6.0.17",
+        "babel-loader": "^8.1.0",
+        "react-is": "^16.13.1"
+    }
+}
