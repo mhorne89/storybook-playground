@@ -13,10 +13,13 @@
     "dependencies": {
         "css-loader": "^4.2.2",
         "dotenv": "^8.2.0",
+        "jquery": "^3.5.1",
         "less": "^3.12.2",
         "less-loader": "^7.0.0",
+        "lodash": "^4.17.20",
         "storybook": "^6.0.17",
         "style-loader": "^1.2.1",
+        "underscore": "^1.10.2",
         "url-loader": "^4.1.0"
     },
     "devDependencies": {

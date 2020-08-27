@@ -12,6 +12,30 @@ This repo contains a basic boilerplate setup of Storybook HTML and some custom t
 * npm run storybook
 
 
+## Libraries
+
+We have some pre-installed libraries available to use out of the box.
+
+## jQuery
+
+To use jQuery in your javascript, simply import it to your story like so: `import $ from 'jquery';`
+
+See jQuery documentation for API usage: https://api.jquery.com/
+
+
+## Lodash
+
+To use Lodash in your javascript, simply import it to your story like so: `import _ from 'lodash';`
+
+See Lodash documentation for API usage: https://lodash.com/docs/4.17.15
+
+## Underscore
+
+To use Underscore in your javascript, simply import it to your story like so: `import _ from 'underscore';`
+
+See Underscore documentation for API usage: https://underscorejs.org/
+
+
 ## Tools
 
 ### Create
