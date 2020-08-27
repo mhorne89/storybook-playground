@@ -42,7 +42,7 @@ See Underscore documentation for API usage: https://underscorejs.org/
 
 This tool can be used to quickly create required directory and files needed to begin a new story.
 
-Run `npm run create`, you will be prompted to give the new story a name, category and which styling extension you would like to use (currently only supports LESS and CSS).
+Run `npm run create`, you will be prompted to give the new story a name, category and which styling extension you would like to use (currently supports LESS, SASS, SCSS and CSS).
 
 ### Link
 

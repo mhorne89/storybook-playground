@@ -17,6 +17,7 @@
         "less": "^3.12.2",
         "less-loader": "^7.0.0",
         "lodash": "^4.17.20",
+        "sass-loader": "^10.0.1",
         "storybook": "^6.0.17",
         "style-loader": "^1.2.1",
         "underscore": "^1.10.2",
@@ -24,7 +25,8 @@
     },
     "devDependencies": {
         "@babel/core": "^7.11.4",
-        "@storybook/addon-actions": "^6.0.17",
+        "@storybook/addon-actions": "^6.0.19",
+        "@storybook/addon-console": "^1.2.1",
         "@storybook/addon-essentials": "^6.0.17",
         "@storybook/addon-links": "^6.0.17",
         "@storybook/html": "^6.0.17",

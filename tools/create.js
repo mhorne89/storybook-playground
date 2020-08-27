@@ -18,7 +18,7 @@ const question2 = () => {
 
 const question3 = () => {
     return new Promise((resolve, reject) => {
-        rl.question('Style file extension (css, less): ', (answer) => resolve(answer));
+        rl.question('Style file extension (css, less, sass, scss): ', (answer) => resolve(answer));
     });
 };
 

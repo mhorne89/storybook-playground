@@ -5,6 +5,7 @@ module.exports = {
     ],
     addons: [
         '@storybook/addon-links',
+        '@storybook/addon-actions',
         '@storybook/addon-essentials'
     ],
     webpackFinal: async (config) => {
@@ -15,16 +16,18 @@ module.exports = {
                 { loader: 'css-loader' },
                 {
                     loader: 'less-loader',
-                    options: { lessOptions: { javascriptEnabled: true } },
-                },
-            ],
+                    options: { lessOptions: { javascriptEnabled: true } }
+                }
+            ]
         });
-        
+
         config.module.rules.push({
-            test: /\.min.css$/,
+            test: /\.s[ac]ss$/i,
             use: [
-                { loader: 'css-loader' }
-            ],
+                'style-loader',
+                'css-loader',
+                'sass-loader'
+            ]
         });
 
         return config;
